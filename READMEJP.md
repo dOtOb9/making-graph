@@ -11,6 +11,7 @@ def sin(x):
 ```python
 # Numpyの呼び出し
 import numpy as np
+
 # 0~2Πまでの空間の用意
 fields = np.linspace(0, 2 * np.pi, 1000)
 ```
