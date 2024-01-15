@@ -7,3 +7,10 @@
 def sin(x):
   return np.sin(x)
 ```
+次に、NumPyのlinspaceをもちいて、0~2Πまでの範囲を1000分割した空間を用意します。
+```python
+# Numpyの呼び出し
+import numpy as np
+# 0~2Πまでの空間の用意
+fields = np.linspace(0, 2 * np.pi, 1000)
+```
