@@ -19,6 +19,7 @@ fields = np.linspace(0, 2 * np.pi, 1000)
 ```python
 import matplotlib.pyplot as plt
 
+# グラフをプロット
 plt.plot(fields, sin(fields), label="sin")
 ```
 ここで、現時点でどのようなグラフが生成されるのか確認してみましょう。これまでのコードをまとめて実行します。
@@ -34,6 +35,9 @@ import numpy as np
 
 # 0~2Πまでの空間の用意
 fields = np.linspace(0, 2 * np.pi, 1000)
+
+# グラフをプロット
+plt.plot(fields, sin(fields), label="sin")
 
 # グラフの表示
 plt.show()
