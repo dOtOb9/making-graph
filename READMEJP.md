@@ -15,3 +15,17 @@ import numpy as np
 # 0~2Πまでの空間の用意
 fields = np.linspace(0, 2 * np.pi, 1000)
 ```
+ここで、現時点でどのようなグラフが生成されるのか確認してみましょう。これまでのコードをまとめて実行します。
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+def sin(x):
+  return np.sin(x)
+
+# Numpyの呼び出し
+import numpy as np
+
+# 0~2Πまでの空間の用意
+fields = np.linspace(0, 2 * np.pi, 1000)
+```
