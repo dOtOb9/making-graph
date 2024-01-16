@@ -28,4 +28,7 @@ import numpy as np
 
 # 0~2Πまでの空間の用意
 fields = np.linspace(0, 2 * np.pi, 1000)
+
+# グラフの表示
+plt.show()
 ```
