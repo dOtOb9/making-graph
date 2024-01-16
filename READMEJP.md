@@ -15,6 +15,12 @@ import numpy as np
 # 0~2Πまでの空間の用意
 fields = np.linspace(0, 2 * np.pi, 1000)
 ```
+これで、使用するデータの準備は整いました。次に、pyplotをインポートしてグラフの設定を行います。
+```python
+import matplotlib.pyplot as plt
+
+plt.plot(fields, sin(fields), label="sin")
+```
 ここで、現時点でどのようなグラフが生成されるのか確認してみましょう。これまでのコードをまとめて実行します。
 ```python
 import matplotlib.pyplot as plt
