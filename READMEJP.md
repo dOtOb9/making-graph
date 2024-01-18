@@ -7,7 +7,7 @@
 def sin(x):
   return np.sin(x)
 ```
-次に、NumPyのlinspaceをもちいて、0~2Πまでの範囲を1000分割した空間を用意します。
+次に、NumPyのlinspaceをもちいて、0~2Πまでの範囲を1000分割した空間を用意します。これはNumPyのlinspaceメソッドを用います。
 ```python
 # Numpyの呼び出し
 import numpy as np
