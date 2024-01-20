@@ -43,3 +43,7 @@ plt.plot(fields, sin(fields), label="sin")
 # グラフの表示
 plt.show()
 ```
+
+その結果、以下のような画像が生成されます。
+
+![sin-grpah](./sin.png)
